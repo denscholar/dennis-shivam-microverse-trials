@@ -17,21 +17,22 @@ a{
 
 .sidebar{
     margin : 0;
-    
     width : 250px;
     font-size: 20px;
     text-decoration: none;
     color: black;
     position: fixed;
-    
+    border-right: 2px solid black;
+    overflow-y: scroll;
+    height: 600px;
 
-
-
+}
+.sidebar h1{
+    font-size: 25px;
+    text-align: center;
 }
 .sidebar ul{
     padding-left: 20px;
-    border-right: 2px solid black;
-    scroll-behavior: auto;    
 }
 .sidebar li{
     
@@ -42,13 +43,22 @@ a{
 }
 .main-section{
     margin-left: 250px;
-    padding: 1px 16px;
+    padding: 35px;
     line-height: 23.04px;
     letter-spacing: normal;
 }
 
-code{
+.code{
     background-color: #ddd;
-}
+    padding: 20px;
+    margin: 50px;
+    font-size: 13px;
 
+}
+h1{
+    font-weight: lighter;
+}
+.section{
+    padding-top: 10px;
+}
 
